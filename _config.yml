@@ -1,16 +1,19 @@
+
+              
 # -----------------------------------------------------------------------------
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               Jung's Dev Diary
+title:              Jung's DevDiary
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 "https://gijung721.github.io"
+baseurl:             "/devDiary"
+url:                "https://gijung721.github.io"
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
-baseurl:             "/devDiary"
+
 
 # A very short description of your page
 tagline:             "All roads lead to data."
@@ -18,12 +21,12 @@ tagline:             "All roads lead to data."
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  Data science enthusiast and addict :)
+  Jung's Dev Diary
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              min
-  email:             theorydb@gmail.com
+  name:              jung
+  email:             dlrlwjd56@gmail.com
 
 # Fallback image and color
 image:               /assets/img/main_left.jpg
