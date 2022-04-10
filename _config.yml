@@ -19,7 +19,44 @@ google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 markdown:           kramdown
 paginate:           5
 paginate_path:      "/posts/page:num/"
+
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-redirect-from
+
+exclude:
+  - README.md
+  - LICENSE.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+
+kramdown:
+  footnote_backlink: '&#x21a9;&#xfe0e;'
+  math_engine:       mathjax
+  math_engine_opts:
+    preview:         true
+    preview_as_code: true
+
+compress_html:
+  comments:          ["<!-- ", " -->"]
+  clippings:         all
+  endings:           all
+  ignore:
+    envs:            [development]
+
+sass:
+  style:             compressed
+
+tipue_search:
+  include:
+    pages: false
+    collections: []
+  exclude:
+    files: [search.html, index.html, tags.html]
+    categories: []
+    tags: []
