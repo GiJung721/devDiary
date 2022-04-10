@@ -8,7 +8,7 @@ title:              Jung's DevDiary
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-baseurl:             "/devDiary"
+baseurl:             
 url:                "https://gijung721.github.io"
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
