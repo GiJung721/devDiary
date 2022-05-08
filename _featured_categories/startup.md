@@ -2,7 +2,7 @@
 layout: list
 title: Startup
 slug: startup
-menu: true
+menu: false
 submenu: false
 order: 4
 description: >
