@@ -3,6 +3,6 @@ layout: tag-blog
 title: -
 slug: -
 category: dev
-menu: false
+menu: true
 order: 3
 ---
