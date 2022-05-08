@@ -2,8 +2,8 @@
 -layout: post
 -title:  "java test"
 -subtitle:   "test"
--categories: java
--tags: java  
+-categories: dev
+-tags: java list 
 -comments: true
 ---
 
