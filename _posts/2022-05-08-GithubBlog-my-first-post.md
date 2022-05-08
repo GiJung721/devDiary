@@ -10,8 +10,8 @@ tags:
     - Git
 toc: true
 toc_sticky: true
-date: {2022-05-08}
-last_modified_at: {2022-05-08}
+date: 2022-05-08
+last_modified_at: 2022-05-08
 published: true
 ---
 
