@@ -4,9 +4,9 @@ title:  "[Android] AsyncTask (Java)"
 excerpt: "안드로이드 AsyncTask 기본 사용법에 대해 알아보자."
 
 categories:
-  - Android
+  - Java
 tags:
-  - [Android, Java]
+  - [Java]
 
 toc: true
 toc_sticky: true
