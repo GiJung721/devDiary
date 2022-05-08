@@ -1,34 +1,97 @@
 ---
-layout: base
 ---
 
-<div class="page">
-  <h1 class="page-title">{{ page.title | default:"Home"}}</h1>
-  {% capture text %}
-Looks like you are using the `{{ page.layout }}` layout. This layout is not supported by Hydejack. Instead use `blog` or `list`. For more information see the [Hydejack Documentation](https://qwtel.com/hydejack/docs/latest/).
-  {% endcapture %}
-  {% include message.html text=text %}
-  <hr/>
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
 
-  {{ content }}
+    <!-- Noto Sans KR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
 
-  <h2>Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.posts %}
-      {% include post-list-item.html post=post %}
-    {% endfor %}
-  </ul>
+    <!-- NanumGothic -->
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
+    
+    <!-- NanumGothicCoding -->
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic-coding.css" rel="stylesheet">
+    
+    <!-- Gowun Dodum -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
 
-  <h2>Pages</h2>
-  <ul class="related-posts">
-    {% for page in site.html_pages %}
-      {% if page.layout == 'page' %}
-        <li class="h4">
-          <a href="{{ page.url | relative_url }}" data-flip="title">
-            <span>{{ page.title }}</span>
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</div>
+    <!-- Ubuntu Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <style> 
+      ::-webkit-scrollbar{
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background-color:#dededee2;
+        border-radius: 16px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color:#cacacad5;
+        border-radius: 16px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #c42f95d9;
+      }
+      ::-webkit-scrollbar-button:start:decrement,
+      ::-webkit-scrollbar-button:end:increment 
+      {
+          width:12px;
+          height:12px;
+          background:transparent;
+      }
+      /* 사이드바 스크롤바 없애기 */
+      .sidebar{ -ms-overflow-style: none; }
+      .sidebar::-webkit-scrollbar{ display:none; }
+    </style>
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
+
+    <div class="initial-content">
+      {{ content }}
+    </div>
+
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+    <script>
+      addBackToTop({
+      diameter: 56,
+      backgroundColor: 'rgb(186, 6, 130)',
+      textColor: '#fff'
+    })</script>
+
+  </body>
+</html>
