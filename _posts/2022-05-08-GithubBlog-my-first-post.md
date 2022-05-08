@@ -1,5 +1,5 @@
 ---
-title: 'Github blog 시작합니다 :)'
+title: 'Github blog 1번째 테스트 포스팅'
 excerpt: 첫번째 포스팅
 categories:
   - Github Blog
