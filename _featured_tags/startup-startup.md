@@ -3,6 +3,6 @@ layout: tag-blog
 title: Startup
 slug: startup
 category: startup
-menu: false
+menu: true
 order: 1
 ---
