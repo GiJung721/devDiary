@@ -3,7 +3,7 @@ layout: post
 title:  "포스트 테스트"
 subtitle:   "POST TEST"
 categories: dev
-tags: r install
+tags: dev
 comments: true
 ---
 
