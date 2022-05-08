@@ -1,10 +1,10 @@
 ---
--layout: post
--title:  "java test"
--subtitle:   "test"
--categories: dev
--tags: java list 
--comments: true
+layout: post
+title:  "java test"
+subtitle:   "test"
+categories: dev
+tags: java 
+comments: true
 ---
 
 
