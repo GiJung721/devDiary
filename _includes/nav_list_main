@@ -25,8 +25,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Spring" %}
-                        <li><a href="/categories/spring" class="">Spring Boot({{category[1].size}})</a></li>
+                    {% if category[0] == "SpringBoot" %}
+                        <li><a href="/categories/springboot" class="">Spring Boot({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
