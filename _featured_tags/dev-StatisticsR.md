@@ -4,5 +4,5 @@ title: Statistics & R
 slug: r
 category: dev
 menu: true
-order: 1
+order: 6
 ---
