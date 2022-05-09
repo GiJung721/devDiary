@@ -47,7 +47,7 @@ ____
   >
   > note example.
 
-```
+
 <details>
 <summary>접기/펼치기 버튼</summary>
 <div markdown="1">
@@ -59,5 +59,5 @@ ____
 
 </div>
 </details>
-```
+
 
