@@ -1,6 +1,6 @@
 ---
-title: 'MarkDown 문법'
-excerpt: MarkDown 문법
+title: '마크다운 문법(Syntax) 정리본 v1.0'
+excerpt: 마크다운 문법(Syntax) 정리본 v1.0
 categories:
   - Github Blog
 tags:
