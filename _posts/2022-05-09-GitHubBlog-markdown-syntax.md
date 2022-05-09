@@ -31,5 +31,4 @@ ____
 
 ____
 
-test
-{: .notice}
+> **_NOTE:_**  The note content.
