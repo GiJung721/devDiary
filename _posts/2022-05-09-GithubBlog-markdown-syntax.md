@@ -121,7 +121,9 @@ ___ (언더바)
   <span style="color:red">red font</span>
 
   <span style="color: blue">blue font</span>
+
   <span style="color: yellow">yellow font</span>
+
   <span style="color: green">green font</span>
 
   <span style="color: #9370DB">rgb color #9370DB</span>
@@ -129,9 +131,13 @@ ___ (언더바)
 * 형광펜 예시
 
   <span style="background-color: red">red font</span>
+
   <span style="background-color: blue">blue font</span>
+
   <span style="background-color: yellow">yellow font</span>
+
   <span style="background-color: green">green font</span>
+  
   <span style="background-color: #9370DB">rgb color #9370DB</span>
 
   
