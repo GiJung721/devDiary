@@ -1,6 +1,18 @@
 ---
-published: false
+title: 'MarkDown 문법'
+excerpt: MarkDown 문법
+categories:
+  - Github Blog
+tags:
+  - - Blog
+    - markdown
+toc: true
+toc_sticky: true
+date: 2022-05-09
+last_modified_at: 2022-05-09
+published: true
 ---
+
 # 마크다운 문법(Syntax)
 
 ## 1. 제목(Header)
@@ -47,7 +59,7 @@ ____
   >
   > note example.
 
-
+```
 <details>
 <summary>접기/펼치기 버튼</summary>
 <div markdown="1">
@@ -59,5 +71,5 @@ ____
 
 </div>
 </details>
-
+```
 
