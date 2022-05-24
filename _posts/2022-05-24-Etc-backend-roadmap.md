@@ -13,4 +13,4 @@ last_modified_at: 2022-05-24
 published: false
 ---
 
-![roadmap](./assets/images/posts/2022-05-24-etc-backend-roadmap-1.png)
+![roadmap](../assets/images/posts/2022-05-24-etc-backend-roadmap-1.png)
