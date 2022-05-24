@@ -19,5 +19,5 @@ published: true
 3년차 개발자인데도 로드맵 중 반은 모르겠는 거 보면 공부가 시급한거 같기하다.. :disappointed_relieved:
 
 
-![roadmap](../assets/images/posts/2022-05-24-etc-backend-roadmap-1.png)
+![roadmap](https://github.com/devgjlee/devgjlee.github.io/blob/main/assets/images/posts/2022-05-24-etc-backend-roadmap-1.png?raw=true)
 출처: Kamram Ahmed 로드맵
