@@ -11,6 +11,7 @@ toc_sticky: true
 date: 2022-10-06
 published: true
 ---
+
 [문제]
 양의 정수 N 내의 이진 간격 은 N의 이진 표현에서 양쪽 끝이 1로 둘러싸인 연속 0의 최대 시퀀스입니다.
 
@@ -29,7 +30,6 @@ published: true
 N은 [ 1 .. 2,147,483,647 ] 범위의 정수 입니다.
 
 ```java
-
 class Solution {
     public int solution(int N) {
         char[] binaryN = Integer.toBinaryString(N).toCharArray();
@@ -48,5 +48,4 @@ class Solution {
         return max;
     }
 }
-
 ```
